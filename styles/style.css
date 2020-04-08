@@ -76,7 +76,7 @@
 }
 
 .two-columns{
-    margin: 100px auto;
+    margin: 100px auto auto auto;
     min-height: auto;
     width: 80%;
     display: flex;
