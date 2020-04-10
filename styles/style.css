@@ -18,6 +18,7 @@
     padding-top: 1px;
     position: relative;
     display: flex;
+    z-index: 1;
 }
 
 .logo {
@@ -39,7 +40,6 @@
     line-height: 96px;
     font-size: 102px;
     font-weight: bold;
-    z-index: 1;
 }
 
 .header__subtitle {
@@ -50,7 +50,6 @@
     position: absolute;
     bottom: 30px;
     left: 64px;
-    z-index: 1;
 }
 
 .header__link {
@@ -69,7 +68,6 @@
     position: absolute;
     bottom: 0;
     right: 0;
-    z-index: 2;
 }
 
 .header__square-pic {
@@ -79,6 +77,7 @@
     position: absolute;
     top: 64px;
     right: 0;
+    z-index: -1;
 }
 
 .description {
@@ -182,7 +181,7 @@
 }
 
 .feynman {
-    min-height: 690px;
+    min-height: 790px;
     background: #F2F2F2;
     position: relative;
     padding-top: 100px;
@@ -283,13 +282,13 @@
     z-index: -1
 }
 
- /* I couldn't figure out how to make box-sizing: border-box work and decided to leave as it is.*/  
 .footer {
     background-color: #1F1F1F;
     color: white;
-    min-height: 250px;
+    min-height: 350px;
     padding-top: 60px;
     padding-bottom: 40px;
+    box-sizing: border-box;
 }
 
 .footer__columns {
