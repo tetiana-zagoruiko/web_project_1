@@ -1,0 +1,16 @@
+@import url(./__column/_content-copyright/footer__column_content-copyright.css);
+@import url(./__column-social-icon/footer__column-social-icon.css);
+@import url(./__column-links/footer__links.css);
+@import url(./__column-link/footer__link.css);
+@import url(./__column-heading/footer__heading.css);
+@import url(./__column-author/footer__author.css);
+@import url(./__columns/footer__columns.css);
+
+.footer {
+    background-color: #1F1F1F;
+    color: white;
+    min-height: 350px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+}
